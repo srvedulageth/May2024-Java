@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-22T16:36:12 PDT" name="Default suite" finished-at="2024-05-22T16:36:47 PDT" duration-ms="34574">
+    <groups>
+    </groups>
+    <test started-at="2024-05-22T16:36:12 PDT" name="Default test" finished-at="2024-05-22T16:36:47 PDT" duration-ms="34574">
+      <class name="org.avs.auto.fb.testsPkg.LoginScenarios">
+        <test-method signature="launchBrowser()[pri:0, instance:org.avs.auto.fb.testsPkg.LoginScenarios@12aba8be]" started-at="2024-05-22T16:36:12 PDT" name="launchBrowser" finished-at="2024-05-22T16:36:16 PDT" duration-ms="3250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="tc001_validcreadentials(java.lang.String,java.lang.String)[pri:0, instance:org.avs.auto.fb.testsPkg.LoginScenarios@12aba8be]" started-at="2024-05-22T16:36:16 PDT" name="tc001_validcreadentials" data-provider="staticdata" finished-at="2024-05-22T16:36:18 PDT" duration-ms="2353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001_validcreadentials -->
+        <test-method signature="tc001_validcreadentials(java.lang.String,java.lang.String)[pri:0, instance:org.avs.auto.fb.testsPkg.LoginScenarios@12aba8be]" started-at="2024-05-22T16:36:18 PDT" name="tc001_validcreadentials" data-provider="staticdata" finished-at="2024-05-22T16:36:41 PDT" duration-ms="22501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001_validcreadentials -->
+        <test-method signature="tc001_validcreadentials(java.lang.String,java.lang.String)[pri:0, instance:org.avs.auto.fb.testsPkg.LoginScenarios@12aba8be]" started-at="2024-05-22T16:36:41 PDT" name="tc001_validcreadentials" data-provider="staticdata" finished-at="2024-05-22T16:36:47 PDT" duration-ms="6411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001_validcreadentials -->
+      </class> <!-- org.avs.auto.fb.testsPkg.LoginScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

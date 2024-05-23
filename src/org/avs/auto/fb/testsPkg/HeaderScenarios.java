@@ -10,7 +10,6 @@ public class HeaderScenarios extends InitiateBrowser {
 	public void tc001_clickInvestors() throws Exception {
 		HeaderPage links = new HeaderPage(driver);
 		
-		Thread.sleep(2000);
 		links.click_hdrInvestors();
 	}
 

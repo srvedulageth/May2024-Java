@@ -15,8 +15,7 @@ public class InitiateBrowser {
 	
 	public WebDriver driver;
 	
-	//@BeforeMethod
-	@Test
+	@BeforeMethod
 	public void launchBrowser() throws Exception {
 		//Select Browser
 		if(readProperties.readConfig("BrowserName").equalsIgnoreCase("chrome")) {

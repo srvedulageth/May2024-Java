@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.avs.auto.fb.testsPkg.LoginScenarios">
+      <class name="org.avs.auto.fb.testsPkg.HeaderScenarios">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="tc001_validcreadentials" invocation-numbers="0 1 2"/>
+          <include name="tc001_clickInvestors"/>
         </methods>
-      </class> <!-- org.avs.auto.fb.testsPkg.LoginScenarios -->
+      </class> <!-- org.avs.auto.fb.testsPkg.HeaderScenarios -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
